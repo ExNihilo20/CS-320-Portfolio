@@ -18,17 +18,17 @@ The Contact Service project provides a set of functionalities to manage a user's
 
 - The contact object shall have a required `address` field that must be no longer than 30 characters. The `address` field shall not be null.
 
-### Contact Class Requirements
+### Contact Test Class Requirements
 
 - The test class shall test that the contact object has a unique contact ID of type string, that is no longer than 10 characters, not null, and not updatable.
 
-- The contact object shall have a required `firstName` String field that cannot be longer than 10 characters. The `firstName` field shall not be null.
+- The test class shall test that the contact object shall have a required `firstName` String field, no longer than 10 characters. The `firstName` field shall not be null.
 
-- The contact object shall have a required `lastName` String field that cannot be longer than 10 characters. The `lastName` field shall not be null.
+- The test class shall test that the contact object shall have a required `lastName` String field, no longer than 10 characters. The `lastName` field shall not be null.
 
-- The contact object shall have a required `phone` String field that must be exactly 10 digits. The `phone` field shall not be null.
+- The test class shall test that the contact object shall have a required `phone` String field that must be exactly 10 digits. The `phone` field shall not be null.
 
-- The contact object shall have a required `address` field that must be no longer than 30 characters. The `address` field shall not be null.
+- The test class shall test that the contact object shall have a required `address` field that must be no longer than 30 characters. The `address` field shall not be null.
 
 
 ### Contact Service Requirements
@@ -38,6 +38,18 @@ The Contact Service project provides a set of functionalities to manage a user's
 - The contact service shall be able to delete contacts per contact ID.
 
 - The contact service shall be able to update contact fields per contact ID. The following fields are updatable:
+  - `firstName`
+  - `lastName`
+  - `Number`
+  - `Address`
+ 
+### Contact Service Test Requirements
+
+- The contact service test class shall verify the ability to add contacts with a unique ID.
+
+- The contact service test class shall verify the ability to delete contacts per contact ID.
+
+- The contact service test class shall verify that ability to update contact fields per contact ID. Test shall verify that the following fields are updatable:
   - `firstName`
   - `lastName`
   - `Number`
