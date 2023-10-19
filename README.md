@@ -57,70 +57,70 @@ The Contact Service project provides a set of functionalities to manage a user's
 
 ## Questions and Answers
 
-### How can I ensure that my code, program, or software is functional and secure?
+### How can I be sure that my code, program, or software is functional and secure?
 
-To ensure that your code, program, or software is functional and secure, consider the following practices:
+To ensure that a code base, program, or software is functional and secure, consider the following practices:
 
 - **Unit Testing**: Write comprehensive unit tests to verify the functionality of individual components.
 
-- **Integration Testing**: Perform integration tests to ensure that different parts of your code work together as expected.
+- **Integration Testing**: Perform integration tests so that different parts of your code work together as expected.
 
-- **Security Audits**: Conduct security audits or code reviews to identify and address potential vulnerabilities.
+- **Security Audits**: Conduct security audits or code reviews to identify and address potential vulnerabilities. This may involve seeking outside sources to uncover blind spots in your authorship.
 
 - **Input Validation**: Always validate user input to prevent malicious inputs or unexpected behavior.
 
-- **Authentication and Authorization**: Implement proper authentication and authorization mechanisms to control access to sensitive data and functions.
+- **Authentication and Authorization**: Implement proper authentication and authorization mechanisms to control access to sensitive data and functions. Role-Based Access Control [RBAC] is one way to implement such a measure.
 
-- **Data Encryption**: Use encryption algorithms to protect sensitive data, especially when it's stored or transmitted.
+- **Data Encryption**: Use encryption algorithms when applicable to protect sensitive data, especially when it's stored or transmitted.
 
 - **Regular Updates**: Keep your software up-to-date with security patches and updates.
 
 ### How do I interpret user needs and incorporate them into a program?
 
-Interpreting user needs involves effective communication and understanding of the requirements. Here's a process to incorporate user needs into a program:
+Interpreting user needs entails effective communication and a clear understanding of the project's requirements. Some basic steps are included below:
 
-1. **Gather Requirements**: Engage with users or stakeholders to collect detailed requirements. Ask questions to clarify ambiguities.
+1. **Gather Requirements**: Engage with users or shareholders to collect detailed requirements. Ask questions early and often along the way.
 
-2. **Create User Stories or Use Cases**: Write user stories or use cases that outline specific scenarios or tasks the program should address.
+2. **Create User Stories or Use Cases**: Write user stories or use cases that outline specific scenarios or tasks that the program should address.
 
-3. **Prioritize Requirements**: Identify critical and non-critical features to focus development efforts.
+3. **Prioritize Requirements**: Identify critical and non-critical features to focus development efforts. Some features may need to be scheduled for future releases.
 
-4. **Design and Prototyping**: Create design mockups or prototypes to visualize the user interface and flow. Get feedback from users.
+4. **Design and Prototyping**: Create design mockups or prototypes to visualize the user interface and flow. Get feedback from shareholders and users.
 
-5. **Iterative Development**: Break the development process into manageable iterations. Regularly demo and gather feedback from users.
+5. **Iterative Development**: Break the development process into manageable iterations. Regularly demo and gather feedback from shareholders and users.
 
-6. **Continuous Communication**: Maintain open channels of communication with users to address questions, concerns, and changing requirements.
+6. **Continuous Communication**: Maintain open channels of communication with users to address questions, concerns, and changing requirements. Avoid scope creep like the plague.
 
-7. **User Acceptance Testing (UAT)**: Conduct UAT with actual users to ensure the software meets their needs and expectations.
+7. **User Acceptance Testing (UAT)**: Conduct UAT with actual users to make sure that the software meets their needs and expectations.
 
-8. **Feedback Loop**: Incorporate feedback into the development process to refine and improve the program.
+8. **Feedback Loop**: Incorporate feedback into the development process to refine and improve the program. 
 
 ### How do I approach designing software?
 
 Designing software involves careful planning and consideration of various aspects. Here's an approach to software design:
 
-1. **Understand Requirements**: Gain a deep understanding of the project's requirements and objectives.
+1. **Gather/Understand Requirements**: Gain a deep understanding of the project's requirements and objectives. Begin compiling functional and non-functional project requirements.
 
-2. **Architecture Design**: Choose an appropriate architectural pattern (e.g., MVC, Microservices) based on the project's complexity and scalability needs.
+2. **Design the Architecture**: Choose an appropriate architectural pattern (e.g., MVC, Microservices, REST, SOAP) based on the project's complexity and scalability needs.
 
-3. **Component Design**: Break down the system into smaller components or modules, each responsible for specific functionalities.
+3. **Design Components**: Break down the system into smaller components or modules, each one being responsible for specific functionalities.
 
-4. **Database Design**: Determine the data model and relationships between different entities. Choose an appropriate database technology.
+4. **Design the Database**: Determine the data model and relationships between different entities. Choose an appropriate database technology to handle construction and maintenance needs.
 
-5. **User Interface (UI) Design**: Create wireframes or mockups to visualize the user interface and user experience.
+5. **Design the User Interface (UI)**: Create wireframes or mockups to visualize the user interface and user experience.
 
-6. **Code Organization**: Follow coding best practices, such as clean code principles and design patterns, to ensure maintainability and readability.
+6. **Organize the Code**: Follow coding best practices, such as clean code principles and design patterns, to ensure maintainability and readability. Code should be self-documenting. Avoid unnecessary comments.
 
-7. **Error Handling and Logging**: Implement robust error handling and logging mechanisms to provide meaningful feedback in case of failures.
+7. **Implement Error Handling and Logging**: Implement robust error handling and logging mechanisms to provide meaningful feedback in case of failures. Future you will be grateful that past you did this.
 
-8. **Scalability and Performance**: Consider the scalability requirements and design the system to handle potential growth in user base or data volume.
+8. **Expand Scalability and Performance**: Consider the scalability requirements and design the system to handle potential growth in user base or data volume.
 
-9. **Security Measures**: Incorporate security measures like authentication, authorization, encryption, and input validation.
+9. **Cement Security Measures**: Incorporate security measures like authentication, authorization, encryption, and input validation and sanitaization.
 
-10. **Testing Strategy**: Plan for comprehensive testing, including unit tests, integration tests, and user acceptance tests.
+10. **Employ the Testing Strategy**: Plan for comprehensive testing, including unit tests, integration tests, and user acceptance tests.
 
-11. **Documentation**: Provide clear and comprehensive documentation for code, APIs, and system architecture.
+11. **Document, Document, Document**: Provide clear and comprehensive documentation for code, APIs, and system architecture.
 
-12. **Feedback and Iteration**: Seek feedback from team members and stakeholders, and be willing to iterate on the design based on insights gained.
+12. **Provide/Receive Feedback, Post-Iteration**: Seek feedback from team members and shareholders, and be willing to iterate on the design based on insights gained.
 
 Remember that software design is an iterative process, and flexibility is key. Continuously review and refine the design as you progress through the development lifecycle.
